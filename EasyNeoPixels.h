@@ -13,6 +13,7 @@ Adafruit_NeoPixel easyNeoPixels;
 
 void setupEasyNeoPixels(int pin, int num) {
   easyNeoPixels = Adafruit_NeoPixel(num, pin, NEO_GRB + NEO_KHZ800);
+  easyNeoPixels.begin();
 }
 
 void writeEasyNeoPixel(int num, int val) {
