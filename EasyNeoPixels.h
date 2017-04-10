@@ -16,11 +16,11 @@ void setupEasyNeoPixels(int pin, int num) {
 }
 
 void writeEasyNeoPixel(int num, int val) {
-  easyNeoPixels.setPixelColor(num, neopixels.Color(val*255,val*255,val*255));
+  easyNeoPixels.setPixelColor(num, easyNeoPixels.Color(val*255,val*255,val*255));
   easyNeoPixels.show();
 }
 
 void writeEasyNeoPixel(int num, int r, int g, int b) {
-  easyNeoPixels.setPixelColor(num, neopixels.Color(r,g,b));
+  easyNeoPixels.setPixelColor(num, easyNeoPixels.Color(r,g,b));
   easyNeoPixels.show();
 }
