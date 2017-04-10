@@ -1,0 +1,2 @@
+setupEasyNeoPixels   KEYWORD2
+writeEasyNeoPixel    KEYWORD2
