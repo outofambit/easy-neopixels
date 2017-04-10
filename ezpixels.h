@@ -1,3 +1,12 @@
+
+/*
+  EasyNeopixels.h - Library for making neopixels more approachable.
+  Created by Evelyn Masso, April 9, 2017.
+*/
+
+#pragma once
+
+#include "Arduino.h"
 #include <Adafruit_NeoPixel.h>
 
 Adafruit_NeoPixel neopixels;
