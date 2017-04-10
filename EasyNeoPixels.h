@@ -1,6 +1,6 @@
 
 /*
-  EasyNeopixels.h - Library for making neopixels more approachable.
+  EasyNeoPixels.h - Library for making neopixels more approachable.
   Created by Evelyn Masso, April 9, 2017.
 */
 
@@ -9,18 +9,18 @@
 #include "Arduino.h"
 #include <Adafruit_NeoPixel.h>
 
-Adafruit_NeoPixel neopixels;
+Adafruit_NeoPixel easyNeoPixels;
 
-void setupNeopixels(int pin, int num) {
-  neopixels = Adafruit_NeoPixel(num, pin, NEO_GRB + NEO_KHZ800);
+void setupEasyNeoPixels(int pin, int num) {
+  easyNeoPixels = Adafruit_NeoPixel(num, pin, NEO_GRB + NEO_KHZ800);
 }
 
-void writeNeopixel(int num, int val) {
-  neopixels.setPixelColor(num, neopixels.Color(val*255,val*255,val*255));
-  neopixels.show();
+void writeEasyNeoPixel(int num, int val) {
+  easyNeoPixels.setPixelColor(num, neopixels.Color(val*255,val*255,val*255));
+  easyNeoPixels.show();
 }
 
-void writeNeopixel(int num, int r, int g, int b) {
-  neopixels.setPixelColor(num, neopixels.Color(r,g,b));
-  neopixels.show();
+void writeEasyNeoPixel(int num, int r, int g, int b) {
+  easyNeoPixels.setPixelColor(num, neopixels.Color(r,g,b));
+  easyNeoPixels.show();
 }
