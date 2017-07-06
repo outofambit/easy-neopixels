@@ -16,11 +16,14 @@ void setupEasyNeoPixels(int pin, int num) {
   easyNeoPixels.begin();
 }
 
+// set the nth neopixel to a particular brightness of white
+// meant to be used with val as HIGH or LOW
 void writeEasyNeoPixel(int num, int val) {
   easyNeoPixels.setPixelColor(num, easyNeoPixels.Color(val*255,val*255,val*255));
   easyNeoPixels.show();
 }
 
+// set the nth neopixel to a particular rgb color
 void writeEasyNeoPixel(int num, int r, int g, int b) {
   easyNeoPixels.setPixelColor(num, easyNeoPixels.Color(r,g,b));
   easyNeoPixels.show();
