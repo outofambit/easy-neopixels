@@ -16,6 +16,10 @@ writeEasyNeoPixel(0, 255, 255, 0);      // make the first neopixel purple
 
 You must install [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) to use this library!
 
+## Examples
+
+see `examples/` for a collection of arduino sketches that use this library
+
 ## Advanced Users
 
-You probably don't want to use this, but if you do: be aware the library just *pollutes the global namespace* with a variable and a few functions.
+You probably don't want to use this library, but if you do: be aware the library just *pollutes the global namespace* with a variable and a few functions.
