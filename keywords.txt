@@ -1,2 +1,2 @@
-setupEasyNeoPixels   KEYWORD2
-writeEasyNeoPixel    KEYWORD2
+setupEasyNeoPixels	KEYWORD2
+writeEasyNeoPixel	KEYWORD2
