@@ -22,4 +22,4 @@ see `examples/` for a collection of arduino sketches that use this library
 
 ## Advanced Users
 
-You probably don't want to use this library, but if you do: be aware the library just *pollutes the global namespace* with a variable and a few functions.
+Advanced users probably don't want to use this library, but if you do: be aware the library *pollutes the global namespace* with a variable and a few functions.
