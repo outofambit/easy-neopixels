@@ -2,7 +2,7 @@
 Blink a single Neopixel!
 */
 
-#include <EasyNeopixels.h>
+#include <EasyNeoPixels.h>
 
 void setup() {
     setupEasyNeoPixels(13, 1);
