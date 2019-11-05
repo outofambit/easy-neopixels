@@ -1,5 +1,8 @@
 /*
-Colors on a single Neopixel!
+
+Cycle through colors on a single Neopixel!
+
+(Don't forget to install [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) to use EasyNeoPixels.)
 */
 
 #include <EasyNeoPixels.h>
