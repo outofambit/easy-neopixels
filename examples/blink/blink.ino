@@ -1,8 +1,11 @@
 /*
+
 Blink a single Neopixel!
+
+(Don't forget to install [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) to use EasyNeoPixels.)
 */
 
-#include <EasyNeopixels.h>
+#include <EasyNeoPixels.h>
 
 void setup() {
     setupEasyNeoPixels(13, 1);
