@@ -1,8 +1,8 @@
 # Easy NeoPixels Library
 
-Makes it easy to use Neopixels with just a few easy commands!
+Makes it easy to use Neopixels with just a few simple commands!
 
-No knowledge of functions, objects, or even variables required.
+No knowledge of functions, objects, or variables required.
 
 It's as easy as:
 
@@ -16,6 +16,6 @@ writeEasyNeoPixel(0, 255, 255, 0);      // make the first neopixel purple
 
 see `examples/` for a collection of arduino sketches that use this library
 
-## Advanced Users
+## A Note to Advanced Users
 
-Advanced users probably don't want to use this library, but if you do: be aware the library *pollutes the global namespace* with a variable and a few functions.
+Please be aware this library pollutes the global namespace with a variable and a few functions. 😄
